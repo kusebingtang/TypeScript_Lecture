@@ -3,7 +3,7 @@
 //     (x: number, y: number): number
 // }
 type Add = (x: number, y: number) => number
-let add: Add = (a: number, b: number) => a + b
+let addIn: Add = (a: number, b: number) => a + b
 
 interface Lib {
     (): void;
